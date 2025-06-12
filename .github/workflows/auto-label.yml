@@ -10,6 +10,7 @@ permissions:
   contents: read
   issues: write
   pull-requests: write
+  labels: write
 
 jobs:
   auto-label:
