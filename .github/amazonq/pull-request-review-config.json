@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "reviewSettings": {
+    "templatePath": "pull-request-template.md",
+    "requiredSections": [
+      "Jira Ticket",
+      "Type of Change",
+      "What Has Changed",
+      "Self-Review Checklist"
+    ],
+    "reviewChecklist": [
+      "Code follows project coding standards",
+      "Appropriate test coverage is included",
+      "Documentation is updated",
+      "Security best practices are followed",
+      "Performance considerations are addressed"
+    ],
+    "autoLabels": {
+      "needs-review": true,
+      "java": ["*.java"],
+      "documentation": ["*.md"]
+    }
+  }
+}
